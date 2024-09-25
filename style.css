@@ -40,11 +40,17 @@ ul {
     position: absolute;
     bottom: 50%;
     font-family: logoFont;
-    font-size: 50px;
+    font-size: 60px;
+    color: white;
 }
 
 .logo p {
     padding-top: 10px;
+}
+
+.logo img {
+    width: 75px;
+    height: 90px;
 }
 
 /* .logo p::before {
