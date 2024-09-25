@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.logo-section {
+    width: 40%;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+
+.form-section {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 50%;
+    text-align: center;
+}
+
+.logo p::before {
+    background-image: url(./odin-lined.png);
+    content: "";
+    display: inline-block;
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+}
