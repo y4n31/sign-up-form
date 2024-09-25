@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+a {
+    text-decoration: underline;
+    color: black;
+}
+
 @font-face {
     font-family: logoFont;
     src: url(./Norse-Bold.otf);
@@ -51,6 +56,18 @@ ul {
 .logo img {
     width: 75px;
     height: 90px;
+}
+
+.credit {
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+    right: 20%;
+    color: rgb(72, 107, 84, 0.6);
+}
+
+.credit a {
+    color: rgb(72, 107, 84, 0.6);
 }
 
 /* .logo p::before {
