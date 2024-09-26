@@ -98,6 +98,7 @@ ul {
 form {
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 .form-body {
@@ -111,10 +112,6 @@ form {
 form h1 {
     font-size: 25px;
     padding: 20px 0 20px 40px;
-}
-
-form button {
-    margin: 10px 0 0 40px;
 }
 
 li {
@@ -136,4 +133,23 @@ form input {
     font-size: 16px;
     font-family: mainFont;
     padding-left: 5px;
+}
+
+.form-submit {
+    height: 100%;
+    width: 100%;
+}
+
+.form-submit button {
+    margin: 40px 0 0 40px;
+    width: 250px;
+    height: 50px;
+    font-family: mainFont;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #596D48;
+    border: 0px;
+    border-radius: 7px;
+    cursor: pointer;
 }
