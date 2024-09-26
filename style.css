@@ -140,6 +140,14 @@ form input:focus {
     box-shadow: 0px 5px 15px -8px black;
 }
 
+form input:user-invalid {
+    border: 1px solid red;
+}
+
+form input:valid {
+    border: 1px solid green;
+}
+
 .form-submit {
     height: 100%;
     width: 100%;
